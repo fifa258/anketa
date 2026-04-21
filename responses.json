@@ -1,0 +1,34 @@
+[
+  {
+    "pohlavi": "zena",
+    "cviceni": "0",
+    "typ": "posilovna",
+    "delka": "30",
+    "duvod": "zdravi",
+    "timestamp": "2026-04-21T17:38:28.798Z"
+  },
+  {
+    "pohlavi": "zena",
+    "cviceni": "0",
+    "typ": "posilovna",
+    "delka": "30",
+    "duvod": "zdravi",
+    "timestamp": "2026-04-21T17:38:33.337Z"
+  },
+  {
+    "pohlavi": "zena",
+    "cviceni": "0",
+    "typ": "posilovna",
+    "delka": "30",
+    "duvod": "zdravi",
+    "timestamp": "2026-04-21T17:38:41.827Z"
+  },
+  {
+    "pohlavi": "muz",
+    "cviceni": "3-4",
+    "typ": "sport",
+    "delka": "60",
+    "duvod": "vzhled",
+    "timestamp": "2026-04-21T17:41:57.734Z"
+  }
+]
