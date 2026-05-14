@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Výsledky ankety</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-light">
+
+    <header class="text-center py-4">
+      <h1>Výsledky ankety </h1>
+    </header>
+
+    <main class="container">
+
+      <div class="card shadow p-4">
+
+        <h5 class="mb-3">Všechny odpovědi:</h5>
+
+        <% if (responses.length === 0) { %>
+          <p>Žádné odpovědi zatím nejsou.</p>
+        <% } %>
+
+        <% responses.forEach(r => { %>
+          <div class="border rounded p-3 mb-3 bg-white">
+
+            <p><strong>Pohlaví:</strong> <%= r.pohlavi %></p>
+            <p><strong>Cvičení týdně:</strong> <%= r.cviceni %></p>
+            <p><strong>Typ aktivity:</strong> <%= r.typ %></p>
+            <p><strong>Délka:</strong> <%= r.delka %></p>
+            <p><strong>Důvod:</strong> <%= r.duvod %></p>
+            <p class="text-muted"><small><%= r.time %></small></p>
+
+          </div>
+        <% }) %>
+
+      </div>
+
+    </main>
+
+  </body>
+</html>
